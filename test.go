@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	// void
 	devId := "Mambo_400064"
 	bleAdaptor := ble.NewClientAdaptor(devId)
 	drone := minidrone.NewDriver(bleAdaptor)
